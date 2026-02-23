@@ -1,6 +1,7 @@
-/* *{
-    background-color:brown
-} */
+*{
+    margin: 0; 
+    padding: 0;
+}
 h1{
     color: blueviolet;
 }
@@ -13,4 +14,23 @@ img{
 }
 .food{
     background-color:aquamarine
+}
+#sample{
+    background-color: cornflowerblue;
+    border-color:5px solid black;
+}
+.first{
+  border-style: dotted; 
+  margin: 10px 15px; 
+  padding: 30px;
+}
+
+.container{
+    background-color: fuchsia;
+}
+.childContainer{
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
