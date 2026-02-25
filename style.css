@@ -25,12 +25,38 @@ img{
   padding: 30px;
 }
 
-.container{
+/* .container{
     background-color: fuchsia;
-}
+} */
 .childContainer{
     background-color: bisque;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+/* blue container */
+.blue-container{
+border: 2px blue solid;
+display: flex;
+flex-direction: row;
+}
+.flex-items{
+    border: olive solid 2px;
+    margin: 5px;
+    height: 15cm;
+    width: 10cm;
+    text-align: center;
+}
+.mine{
+    color: blue;
+    font-size: 50px;
+}
+/* last-container */
+.last-container{
+    border: blue 2px;
+    display: flex;
+}
+img{
+    width: 100px;
+    align
 }
