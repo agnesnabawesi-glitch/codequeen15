@@ -56,7 +56,15 @@ flex-direction: row;
     border: blue 2px;
     display: flex;
 }
+
 img{
     width: 100px;
     align
 }
+
+
+/* bootstrap */
+.ict{
+    background-color: green;
+}
+
